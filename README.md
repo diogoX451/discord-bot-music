@@ -1,7 +1,7 @@
 <h1 align="center">Bot de Música para o Discord Diogo Almeida</h1>
 <h3 align="center">Desenvolvido para aprendizagem de Node.js</h3>
 
-<b><p align="left" font-weight="bold">chama as seguintes biliotecas:</p></b>
+<b><p align="left" font-weight="bold">Chama as seguintes biliotecas:</p></b>
 <p align="left">npm init, npm discord.js, npm i discord-player, npm i ffmpeg-static, npm i opusscript</p>
 
 
