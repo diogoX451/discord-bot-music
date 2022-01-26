@@ -1,6 +1,10 @@
 <h1 align="center">Bot de Música para o Discord Diogo Almeida</h1>
 <h3 align="center">Desenvolvido para aprendizagem de Node.js</h3>
 
+<p align="left" font-weight="bold">"chama as seguintes biliotecas:"</p>
+<p align="left">"npm init, npm discord.js, npm i discord-player, npm i ffmpeg-static, npm i opusscript"</p>
+
+
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=diogox451&label=Profile%20views&color=0e75b6&style=flat" alt="diogox451" /> </p>
 
 <p align="left"> <a href="https://twitter.com/diogox451" target="blank"><img src="https://img.shields.io/twitter/follow/diogox451?logo=twitter&style=for-the-badge" alt="diogox451" /></a> </p>
