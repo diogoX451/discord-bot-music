@@ -17,21 +17,29 @@ const client = new Client({
       console.log("Nos conformes");
 
   });
-// comando normal do codigo
+// comandos do bot
 client.on("messageCreate", (msg)=> {
-    if(!msg.guild)return;
-    if(!msg.content.startsWith(prefix)) return;
-    
-    if(msg.content == prefix + "Eai"){
-        msg.reply({
-            content: "Eai Zé",
-        });
-    }
-    if(msg.content == prefix + "Bom dia"){
-        msg.reply({
-            content:" Opa "+ msg.author.username + " como vai cumpadre?",
-        });
-    }
+  if(!msg.guild)return;
+  if(!msg.content.startsWith(prefix)) return;
+  
+  if(msg.content == prefix + "Eai"){
+      msg.reply({
+          content: "Eai Zé",
+      });
+  } else if(msg.content == prefix + "Bom dia"){
+      msg.reply({
+          content:" Opa "+ msg.author.username + " como vai cumpadre?",
+      });
+  } else if(msg.content == prefix + "server"){
+    msg.reply(`Server name: ${msg.guild.name}\nTotal de ${msg.guild.memberCount} membros `);
+  }
+  // Criando reações
+  if( msg.content == prefix + "reagir"){
+    msg.reply({ content: "Está usando uma reação com Emoji...", fetchReplays: true});
+      msg.react('😀');
+      msg.react('🤐');
+  }
+
 });
 // player
 const player = new Player(client, {
